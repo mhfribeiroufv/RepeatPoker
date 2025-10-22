@@ -1,7 +1,7 @@
 # Repeat Poker — Prática de Orientação a Objetos em JavaScript
 
 Projeto desenvolvido para a disciplina **INF321 — Projeto e Desenvolvimento de Sistemas para a Web**  
-Departamento de Ciência da Computação — Universidade Federal de Viçosa (UFV)  
+Departamento de Informática — Universidade Federal de Viçosa (UFV)  
 Professor: [Marcos H. F. Ribeiro](https://github.com/mhfribeiroufv)
 
 ---
