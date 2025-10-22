@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <title>Repeat Poker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="./styles.css" rel="stylesheet" />
+  <script type="module" src="./js/main.js" defer></script>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Repeat Poker</h1>
+            <div class="controls">
+                <span class="status">Cartas restantes: <strong id="left">52</strong></span>
+                <span class="status">Pontuação: <strong id="score">0</strong></span>
+                <button id="btn-new">Novo Jogo</button>
+            </div>
+        </header>
+
+        <div class="layout">
+            <section class="deck-area">
+                <div class="deck">
+                    <p>Compras</p>
+                    <img id="deck-back" alt="Monte" src="./cartas/card_back.png">
+                </div>
+                <div class="next-card">
+                    <p>Carta ativa</p>
+                    <img id="next" src="./cartas/card_empty.png" alt="Carta ativa">
+                </div>
+                <div class="log">
+                    <h3>Histórico</h3>
+                    <ol id="history"></ol>
+                </div>
+            </section>
+
+            <section class="board">
+                <div id="grid" class="grid"></div>
+                <small class="hint">
+                    Clique numa casa vazia para posicionar a carta comprada.<br>
+                    Ao completar uma linha, a melhor mão é pontuada e as cartas da combinação são removidas; kickers permanecem.
+                </small>
+            </section>
+        </div>
+
+        <footer>
+            Implementação didática para aula de OO em JS.
+        </footer>
+    </main>
+</body>
+</html>
